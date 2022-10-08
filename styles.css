@@ -1,0 +1,30 @@
+html{
+    background: linear-gradient(#FDEB71, #ABDCFF) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+header ul li {
+    display: inline-block;
+    margin: 10px;
+    padding: 20px;
+    color: aquamarine;
+}
+p{
+    background-color: white;
+    color: black;
+    font-family: "Ink Free ";
+}
+h1{
+    font-weight: bold;
+    border-style: inset;
+    padding: 2%;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+}

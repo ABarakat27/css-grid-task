@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form link</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+    <body>
+        <form>
+           to return to main click <a href="index.html">here</a>
+            <br>
+            <label for="first_name">FirstName</label>
+           <input type="text" id="first_name" name="first_name" placeholder="Harry">
+           
+           
+           <br><br>
+           
+           
+           <label for="last_name">LastName</label>
+           <input type="text" id="last_name" name="last_name" placeholder="Potter">
+            
+           
+           <br><br>
+            <label for="gender">Gender:</label>
+            <input type="radio" value="male" id="male" name="gender" >
+            <label>Male</label>
+            <input type="radio" value="female" id="female" name="gender" >
+            <label>Female</label>
+            <br><br>
+            <label for="password">password</label>
+            <input type="password"  name="password" minlength="10" maxlength="12">
+            <br><br>
+            <label for="profession"> Profession</label>
+            <select id="profession">
+                <option value="engineer">engineer</option>
+                <option value="medicin">medicin</option>
+                <option value="others">others</option>
+            </select>
+            <br><br>
+            <label for="email">Email</label>
+            <input type="email" name="email"  id="email" placeholder="123@company_name.org">
+            <br><br>
+            <label for="rating">Rate your experience</label>
+            <input type="range" min="1" max="10">
+            <br><br>
+            <input type="reset">
+            <br><br>
+            <input type="submit"> 
+        </form>
+        <p>
+            Thank you for helping us improve your experience.
+        </p>
+    </body>
+</html>
